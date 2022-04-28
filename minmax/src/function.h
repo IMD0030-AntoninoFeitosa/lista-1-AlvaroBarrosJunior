@@ -5,7 +5,7 @@
 #include <utility>
 using std::pair;
 
-namespace function
+namespace function  // não é necessário definir um namespace
 {
   std::pair<int, int> min_max(int V[], std::size_t n);
 }

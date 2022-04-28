@@ -11,12 +11,13 @@ using namespace std;
  *
  * @return A pair of indexes to the first smallest and last largest values.
  */
-namespace function
+namespace function  // não é necessário definir um namespace
 {    
     pair<int, int> min_max(int V[], size_t n)
     {
         int max = 0;
         int min = 0;
+        // faltou tratar o caso n == 0 retornando {-1,-1}
 
         for (int i=0; i<n; i++){
             if (V[max] <= V[i]){

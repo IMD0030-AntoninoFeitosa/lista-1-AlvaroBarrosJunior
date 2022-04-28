@@ -33,6 +33,8 @@ int main(void)
 
     total = intervalo0a25+intervalo25a50+intervalo50a75+intervalo75a100+intervaloFora;
 
+    // cast incorreto, deveria ser:
+    // porcentagem0a25 = static_cast<float>(intervalo0a25)/total*100;
     porcentagem0a25 = (float) intervalo0a25/total*100;
     porcentagem25a50 = (float) intervalo25a50/total*100;
     porcentagem50a75 = (float) intervalo50a75/total*100;

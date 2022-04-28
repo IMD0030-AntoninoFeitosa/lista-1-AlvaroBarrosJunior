@@ -6,7 +6,7 @@ using std::array;
 #include <string>
 using std::string;
 
-namespace function
+namespace function  // não é necessário definir um namespace
 {
     /// Representa um ponto em 2D
     struct Ponto
