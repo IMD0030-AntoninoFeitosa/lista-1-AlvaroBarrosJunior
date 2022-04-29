@@ -2,13 +2,13 @@
 
 Preencha os dados abaixo para identificar a autoria do trabalho.
 
-- Nome: *\<__insira seu nome aqui__>*
-- Email: *\<insira seu email aqui>*
-- Turma: *\<insira sua turma aqui>*
+- Nome: *Álvaro Joaquim de Faria Barros Júnior*
+- Email: *alvarojoaquimjr@gmail.com*
+- Turma: *Turma 03*
 
 # Questões Finalizadas
 
-- [ ] Negativos 5
+- [x] Negativos 5
 - [ ] Soma Vizinhos
 - [ ] Intervalos
 - [ ] Fibonacci

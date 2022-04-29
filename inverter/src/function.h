@@ -6,8 +6,11 @@ using std::array;
 #include <string>
 using std::string;
 
-template <std::size_t SIZE>
-void reverse( std::array<std::string,SIZE> & arr );
+namespace function  // não é necessário definir um namespace
+{
+  template <std::size_t SIZE>
+  void reverse(std::array<std::string, SIZE> &arr);
+}
 
 #include "function.cpp"
 #endif
